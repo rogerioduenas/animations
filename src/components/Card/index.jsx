@@ -14,7 +14,7 @@ const style = {
   boxShadow: 24,
 };
 
-function Card({ animation: Animation }) {
+function Card({ animation: Animation, cover: Id }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => !open && setOpen(true);
   const handleClose = () => open && setOpen(false);
@@ -25,10 +25,12 @@ function Card({ animation: Animation }) {
       sx={{
         width: '200px',
         height: '300px',
-        background: 'lightBlue',
+        backgroundImage: `url(animationsCover/animation${Id}.png)`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
         cursor: 'pointer'
-      }}
-    >
+      }}>
       <Modal
         open={open}
         onClose={handleClose}
