@@ -3,10 +3,12 @@ import { Box } from '@mui/material';
 import Card from '../Card';
 import Animation1 from '../Animations/Animation-1';
 import Animation2 from '../Animations/Animation-2';
+import Animation3 from '../Animations/Animation-3';
 
 const list = [
   { name: Animation1, cover: '1' },
   { name: Animation2, cover: '2' },
+  { name: Animation3, cover: '3' },
 ]
 
 function Content() {
