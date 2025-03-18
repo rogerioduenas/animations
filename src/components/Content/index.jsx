@@ -9,6 +9,7 @@ import Animation5 from '../Animations/Animation-5';
 import Animation6 from '../Animations/Animation-6';
 import Animation7 from '../Animations/Animation-7';
 import Animation8 from '../Animations/Animation-8';
+import Animation9 from '../Animations/Animation-9';
 
 const list = [
   { name: Animation1, cover: '1' },
@@ -19,6 +20,7 @@ const list = [
   { name: Animation6, cover: '6' },
   { name: Animation7, cover: '7' },
   { name: Animation8, cover: '8' },
+  { name: Animation9, cover: '9' },
 ]
 
 function Content() {
